@@ -1,43 +1,76 @@
-# Job Tracking Application
+# 📝 Jobify
 
 The Job Tracking Application is a web-based platform that allows users to create and track job applications. Users can create job entries, access available jobs, track the status of their applications, and update their personal information.
 
-## Technologies Used
-
-- Backend: Node.js, Express.js, MongoDB
-- Frontend: ReactJS
-
 ## Features
+  
+- **Application Tracking:** 
+  - Monitor the status of each application in real-time.
 
-- User registration and login system
-- Dashboard to view job statistics and manage applications
-- Create new job entries
-- Edit user profile information
+- **Job Search:** 
+  - Search for job listings across various platforms and industries.
 
-## Usage
+- **Dashboard:** 
+  - Manage your applications and view job statistics through a user-friendly dashboard.
 
-1. Clone the repository.
-2. Install the dependencies using `npm install` in the root folder.
-3. Create a `.env` file in the root folder and provide the necessary environment variables (e.g., MongoDB connection string, JWT secret key).
-4. Start the server by running `npm start` in the root folder.
-5. Navigate to the frontend directory (`client`) and run `npm install` to install frontend dependencies.
-6. Start the frontend development server by running `npm start` in the `client` directory.
-7. Access the application in your browser at `http://localhost:3000`.
+- **Secure Authentication:**
+  - Utilizes JWT for secure user authentication, ensuring data privacy and protection.
+ 
+## Tech Stack
 
-## User Interface
+- **Frontend:** 
+  - React.js
+  - Tailwind CSS
 
-- Landing Page: Users can either login or register to access the application.
-- Dashboard: Once logged in, users are directed to the dashboard, where they can view job statistics, manage their applications, and edit their profile.
-- Jobs Page: Users can access available jobs, create new job entries, and track the status of their applications.
+- **Backend:** 
+  - Node.js
+  - Express.js
 
+- **Database:** 
+  - MongoDB (for storing user and job application data)
 
-## Dependencies
+- **Authentication:** 
+  - JWT 
 
-The main dependencies used in this project are:
+## Installation & Running Locally
 
-- Express.js
-- ReactJS
+### Prerequisites
+
+- Node.js
 - MongoDB
 
-For a complete list of dependencies, please refer to the `package.json` files in the root and client directories.
+### Steps to Run
+
+1. **Clone the repository:**
+    ```bash
+   git clone https://github.com/ayush2111/Jobify.git
+   ```
+
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3. **Set up environment variables:**
+   ```bash
+   Create a .env file in root directory and add your environment variables
+   ```
+4. **Run the server:**
+   ```bash
+   nodemon index.js
+   ```
+5. **Run the frontend:**
+   ```bash
+   cd client
+   npm run dev
+   ```
+
+### Screenshots
+
+![Jobify/Screenshot 2024-09-01 160937.png](https://github.com/ayush2111/Jobify/blob/main/Jobify/Screenshot%202024-09-01%20160937.png)
+![Jobify/Screenshot 2024-09-01 160925.png](https://github.com/ayush2111/Jobify/blob/main/Jobify/Screenshot%202024-09-01%20160925.png)
+![Jobify/Screenshot 2024-09-01 160907.png](https://github.com/ayush2111/Jobify/blob/main/Jobify/Screenshot%202024-09-01%20160907.png)
+![Jobify/Screenshot 2024-09-01 160821.png](https://github.com/ayush2111/Jobify/blob/main/Jobify/Screenshot%202024-09-01%20160821.png)
+![Jobify/Screenshot 2024-09-01 160836.png](https://github.com/ayush2111/Jobify/blob/main/Jobify/Screenshot%202024-09-01%20160836.png)
+![Jobify/Screenshot 2024-09-01 160853.png](https://github.com/ayush2111/Jobify/blob/main/Jobify/Screenshot%202024-09-01%20160853.png)
+
 
